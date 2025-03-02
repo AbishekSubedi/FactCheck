@@ -17,7 +17,7 @@ async function handleSubmit() {
     `;
     
     try {
-        const response = await fetch('https://factcheck-cfib.onrender.comanalyze', {
+        const response = await fetch('https://factcheck-cfib.onrender.com/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
